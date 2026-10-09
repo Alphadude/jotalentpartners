@@ -180,7 +180,7 @@ export default function AboutPage() {
             True strength comes from unity. When individuals and businesses work together toward a shared vision, incredible things happen. We are proud to build a network of support, collaboration, and lasting global impact.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <Link href="/demo" className="bg-[#151B28] text-white px-8 py-4 rounded-full text-[15px] sm:text-[16px] font-semibold hover:bg-black transition-all hover:scale-105 active:scale-95 shadow-xl shadow-black/10">
+            <Link href="/contact" className="bg-[#151B28] text-white px-8 py-4 rounded-full text-[15px] sm:text-[16px] font-semibold hover:bg-black transition-all hover:scale-105 active:scale-95 shadow-xl shadow-black/10">
               Partner with us
             </Link>
             <Link href="#story" className="bg-white/90 text-[#151B28] px-7 py-4 rounded-full text-[15px] sm:text-[16px] font-semibold hover:bg-white transition-all hover:scale-105 active:scale-95 shadow-sm border border-black/5">
@@ -473,7 +473,7 @@ export default function AboutPage() {
                 Protect what matters most. Our specialized corporate partners provide risk advisory, comprehensive insurance solutions, and expert statutory tax planning.
               </p>
             </div>
-            <Link href="/demo" className="shrink-0 bg-[#151B28] text-white px-6 py-3.5 rounded-full text-sm font-semibold hover:bg-black transition-all">
+            <Link href="/contact" className="shrink-0 bg-[#151B28] text-white px-6 py-3.5 rounded-full text-sm font-semibold hover:bg-black transition-all">
               Inquire About Advisory
             </Link>
           </div>
@@ -613,7 +613,7 @@ export default function AboutPage() {
               Contact Our Consultants <ArrowRight className="w-4 h-4" />
             </Link>
             <Link 
-              href="/demo"
+              href="/contact"
               className="bg-[#EFF6FF] text-[#1E40AF] border border-[#BFDBFE] px-8 py-4 rounded-full text-center text-sm font-semibold hover:bg-[#DBEAFE] transition-all"
             >
               Request a Free Quote

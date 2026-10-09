@@ -248,7 +248,7 @@ export default function ServicesPage() {
             From finance to retail, and from fast-moving startups to global trade, we’ve worked across sectors to create meaningful, measurable outcomes. Our work is shaped by real-world impact and a people-first approach.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <Link href="/demo" className="bg-[#151B28] text-white px-8 py-4 rounded-full text-[15px] sm:text-[16px] font-semibold hover:bg-black transition-all hover:scale-105 active:scale-95 shadow-xl shadow-black/10">
+            <Link href="/contact" className="bg-[#151B28] text-white px-8 py-4 rounded-full text-[15px] sm:text-[16px] font-semibold hover:bg-black transition-all hover:scale-105 active:scale-95 shadow-xl shadow-black/10">
               Get started with solutions
             </Link>
             <Link href="#pillars" className="bg-white/90 text-[#151B28] px-7 py-4 rounded-full text-[15px] sm:text-[16px] font-semibold hover:bg-white transition-all hover:scale-105 active:scale-95 shadow-sm border border-black/5">
@@ -346,7 +346,7 @@ export default function ServicesPage() {
                 </div>
 
                 <div className="pt-8 mt-8 border-t border-black/5">
-                  <Link href="/demo" className="text-sm font-bold text-[#151B28] group-hover:text-blue-600 flex items-center gap-1.5 transition-colors">
+                  <Link href="/contact" className="text-sm font-bold text-[#151B28] group-hover:text-blue-600 flex items-center gap-1.5 transition-colors">
                     Learn more about this pillar <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>
@@ -400,7 +400,7 @@ export default function ServicesPage() {
 
                   <div className="pt-6 mt-6 border-t border-gray-100 flex items-center justify-between text-xs font-bold">
                     <span className="text-gray-400">Tailored Program</span>
-                    <Link href="/demo" className="text-[#151B28] group-hover:text-blue-600 flex items-center gap-1 transition-colors">
+                    <Link href="/contact" className="text-[#151B28] group-hover:text-blue-600 flex items-center gap-1 transition-colors">
                       Inquire <ChevronRight className="w-3.5 h-3.5" />
                     </Link>
                   </div>
@@ -637,7 +637,7 @@ export default function ServicesPage() {
               Request a Custom Quote <ArrowRight className="w-4 h-4" />
             </Link>
             <Link 
-              href="/demo"
+              href="/contact"
               className="bg-[#EFF6FF] text-[#1E40AF] border border-[#BFDBFE] px-8 py-4 rounded-full text-center text-sm font-semibold hover:bg-[#DBEAFE] transition-all"
             >
               Book an Advisory Call

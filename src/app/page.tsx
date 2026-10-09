@@ -45,7 +45,7 @@ export default function Home() {
             JO Talent Partners helps companies expand globally with unmatched speed, flexibility, and compliance. Get our all-in-one Global People Platform that simplifies the way you onboard, offboard, and everything else in between.
           </p>
           <div className="flex justify-center">
-            <Link href="/demo" className="bg-[#151B28] text-white px-8 py-3.5 sm:py-4 rounded-full text-[15px] sm:text-[16px] font-semibold hover:bg-black transition-all hover:scale-105 active:scale-95 shadow-xl shadow-black/10">
+            <Link href="/contact" className="bg-[#151B28] text-white px-8 py-3.5 sm:py-4 rounded-full text-[15px] sm:text-[16px] font-semibold hover:bg-black transition-all hover:scale-105 active:scale-95 shadow-xl shadow-black/10">
               Get started
             </Link>
           </div>
@@ -248,7 +248,7 @@ export default function Home() {
             <p className="text-[16px] sm:text-[18px] md:text-[19px] text-[#555A64] leading-relaxed mb-8">
               Hire employees and contractors in 150+ countries without the cost and complexity of setting up local entities. JO Talent Partners acts as the Employer of Record, taking on all legal compliance, localized contracts, minimum wage laws, benefits, and taxes.
             </p>
-            <Link href="/demo" className="bg-[#151B28] text-white px-7 py-3.5 rounded-full text-[15px] font-semibold hover:bg-black transition-all inline-flex items-center gap-2">
+            <Link href="/contact" className="bg-[#151B28] text-white px-7 py-3.5 rounded-full text-[15px] font-semibold hover:bg-black transition-all inline-flex items-center gap-2">
               Learn more <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -468,7 +468,7 @@ export default function Home() {
             <p className="text-[16px] sm:text-[18px] text-gray-400 leading-relaxed mb-8">
               Constantly changing local regulations shouldn&apos;t slow you down. Our platform monitors labor laws in 150+ countries so you never fail an audit.
             </p>
-            <Link href="/demo" className="bg-white text-black px-8 py-3.5 rounded-full text-[15px] font-bold hover:bg-gray-100 transition-all inline-block">
+            <Link href="/contact" className="bg-white text-black px-8 py-3.5 rounded-full text-[15px] font-bold hover:bg-gray-100 transition-all inline-block">
               Explore Compliance
             </Link>
           </div>
@@ -554,7 +554,7 @@ export default function Home() {
               120+ entities. 200+ local legal experts. Global from day one. Tap into the most extensive coverage on the market, and start hiring, onboarding, and paying anywhere.
             </p>
             <Link 
-              href="/demo" 
+              href="/contact" 
               className="bg-[#151B28] text-white px-7 py-3 sm:px-8 sm:py-3.5 rounded-full text-[14px] sm:text-[15px] font-bold hover:bg-black transition-all inline-block shadow-md hover:scale-105 active:scale-95"
             >
               Get started
@@ -656,7 +656,7 @@ export default function Home() {
                </div>
 
                <div className="pt-4">
-                  <Link href="/demo" className="bg-[#151B28] text-white px-8 py-3.5 rounded-full text-[15px] font-bold hover:bg-black transition-all inline-block">
+                  <Link href="/contact" className="bg-[#151B28] text-white px-8 py-3.5 rounded-full text-[15px] font-bold hover:bg-black transition-all inline-block">
                      Get started now
                   </Link>
                </div>
