@@ -478,9 +478,9 @@ export default function ContactPage() {
                 <ul className="space-y-4 text-[14px] text-[#A1A1A6]">
                   <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
                   <li><Link href="/services" className="hover:text-white transition-colors">Services</Link></li>
-                  <li><Link href="/contact" className="hover:text-white transition-colors text-white font-semibold">Contact</Link></li>
+                  <li><Link href="/#why-choose-us" className="hover:text-white transition-colors">Why Choose Us</Link></li>
                   <li><Link href="/about#values" className="hover:text-white transition-colors">Core Values</Link></li>
-                  <li><Link href="mailto:info@jotalentpartners.com.ng" className="hover:text-white transition-colors">Direct Email</Link></li>
+                  <li><Link href="/contact" className="hover:text-white transition-colors text-white font-semibold">Contact</Link></li>
                 </ul>
               </div>
             </div>

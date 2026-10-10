@@ -6,6 +6,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 export const metadata = {
   title: "About Us | JO Talent Partners",
@@ -367,7 +368,10 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 5. OUR CORE VALUES (7 CARDS BENTO GRID) */}
+      {/* 5. WHY CHOOSE US (BENTO GRID) */}
+      <WhyChooseUs showCta={false} className="border-t border-[#151B28]/5" />
+
+      {/* 6. OUR CORE VALUES (7 CARDS BENTO GRID) */}
       <section className="py-24 px-4 sm:px-6 max-w-[1240px] mx-auto">
         <div className="text-center max-w-[720px] mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#151B28]/5 text-xs font-bold text-[#151B28] tracking-wider uppercase mb-3">
@@ -698,10 +702,10 @@ export default function AboutPage() {
                 <h4 className="text-[15px] font-semibold text-white mb-6">Company</h4>
                 <ul className="space-y-4 text-[14px] text-[#A1A1A6]">
                   <li><Link href="/about" className="hover:text-white transition-colors text-white font-semibold">About Us</Link></li>
-                  <li><Link href="/about#story" className="hover:text-white transition-colors">Our Story</Link></li>
-                  <li><Link href="/about#vision" className="hover:text-white transition-colors">Vision & Mission</Link></li>
+                  <li><Link href="/services" className="hover:text-white transition-colors">Services</Link></li>
+                  <li><Link href="/about#why-choose-us" className="hover:text-white transition-colors">Why Choose Us</Link></li>
                   <li><Link href="/about#values" className="hover:text-white transition-colors">Core Values</Link></li>
-                  <li><Link href="mailto:info@jotalentpartners.com.ng" className="hover:text-white transition-colors">Contact</Link></li>
+                  <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
                 </ul>
               </div>
             </div>

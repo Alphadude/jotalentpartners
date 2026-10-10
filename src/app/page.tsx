@@ -5,6 +5,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -618,6 +619,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* WHY CHOOSE US (BENTO GRID VALUE PROPOSITION) */}
+      <WhyChooseUs />
+
       {/* 8. SECTION 7: HOW TO GET STARTED (3 EASY STEPS) */}
       <section className="py-20 sm:py-24 px-4 sm:px-6 max-w-[1140px] mx-auto">
          <div className="text-center max-w-[600px] mx-auto mb-16">
@@ -790,9 +794,9 @@ export default function Home() {
                 <ul className="space-y-4 text-[14px] text-[#A1A1A6]">
                   <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
                   <li><Link href="/services" className="hover:text-white transition-colors">Services</Link></li>
-                  <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
+                  <li><Link href="/#why-choose-us" className="hover:text-white transition-colors">Why Choose Us</Link></li>
                   <li><Link href="/about#values" className="hover:text-white transition-colors">Core Values</Link></li>
-                  <li><Link href="mailto:info@jotalentpartners.com.ng" className="hover:text-white transition-colors">Direct Email</Link></li>
+                  <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
                 </ul>
               </div>
             </div>

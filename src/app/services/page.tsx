@@ -7,6 +7,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 export const metadata = {
   title: "Services & Solutions | JO Talent Partners",
@@ -548,6 +549,9 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* WHY CHOOSE US */}
+      <WhyChooseUs showCta={false} className="border-t border-[#151B28]/5" />
+
       {/* 8. APPLE / DEEL DARK ENTERPRISE MODULE */}
       <section className="py-12 px-4 sm:px-6 max-w-[1240px] mx-auto">
         <div className="bg-[#151B28] text-white rounded-[36px] p-8 sm:p-14 lg:p-16 relative overflow-hidden shadow-2xl">
@@ -723,9 +727,9 @@ export default function ServicesPage() {
                 <ul className="space-y-4 text-[14px] text-[#A1A1A6]">
                   <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
                   <li><Link href="/services" className="hover:text-white transition-colors text-white font-semibold">Services</Link></li>
-                  <li><Link href="/services#pillars" className="hover:text-white transition-colors">Key Pillars</Link></li>
+                  <li><Link href="/#why-choose-us" className="hover:text-white transition-colors">Why Choose Us</Link></li>
                   <li><Link href="/about#values" className="hover:text-white transition-colors">Core Values</Link></li>
-                  <li><Link href="mailto:info@jotalentpartners.com.ng" className="hover:text-white transition-colors">Contact</Link></li>
+                  <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
                 </ul>
               </div>
             </div>
